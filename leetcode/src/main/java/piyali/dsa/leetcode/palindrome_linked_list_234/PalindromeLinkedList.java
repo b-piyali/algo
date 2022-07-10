@@ -1,6 +1,6 @@
-package piyali.dsa.leetcode.palindromelinkedlist_234;
+package piyali.dsa.leetcode.palindrome_linked_list_234;
 
-import piyali.dsa.leetcode.linklist.ListNode;
+import piyali.dsa.leetcode.linked_list.ListNode;
 
 import java.util.Objects;
 

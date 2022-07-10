@@ -1,4 +1,4 @@
-package piyali.dsa.leetcode.longestpalindrome_409;
+package piyali.dsa.leetcode.longest_palindrome_409;
 
 import java.util.HashMap;
 import java.util.Map;

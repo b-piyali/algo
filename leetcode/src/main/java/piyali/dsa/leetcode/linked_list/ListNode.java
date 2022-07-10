@@ -1,4 +1,4 @@
-package piyali.dsa.leetcode.linklist;
+package piyali.dsa.leetcode.linked_list;
 
 public class ListNode {
     public int val;
