@@ -18,7 +18,7 @@ public class MinimumNumberOfSquares {
 
         if (dp[A] == Integer.MAX_VALUE) {
             for (int i = 1; i <= Math.floor(Math.sqrt(A)); i++) {
-                dp[A] = Math.min(dp[A], 1 + count(A - i * i, dp));
+                dp[A] = Math.min(dp[A], 1 + count(A - (i * i), dp));
             }
         }
         return dp[A];
