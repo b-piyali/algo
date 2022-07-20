@@ -3,7 +3,7 @@ package piyali.dsa.leetcode.construct_binary_tree_preorder_inorder_traversal_105
 import piyali.dsa.leetcode.tree.TreeNode;
 
 public class ConstructBinaryTreePreorderInorderTraversal {
-    int index = 0;
+    private int index = 0;
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         if (preorder == null || inorder == null || preorder.length != inorder.length) {
